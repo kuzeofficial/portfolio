@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Container from '@/components/Container'
-import {projects} from "../data/projects"
 import Typewriter from 'typewriter-effect';
 import Card from '@/components/Card'
 export default function Home() {
@@ -40,14 +39,6 @@ export default function Home() {
                 <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4  border border-gray-500 rounded shadow">
                     Contact
                 </button>
-                <div class="flex flex-wrap overflow-hidden">
-                    <div class="w-1/2 overflow-hidden sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
-                        <Card image="/images/ui_food_delivery_app.jpg" title="Hello" description="My name is Cristian"/>
-                    </div>
-                    <div class="w-1/2 overflow-hidden sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
-                        <Card image="/images/ui_food_delivery_app.jpg" title="Hello" description="My Name is Cristian"/>
-                    </div>
-                </div>
             </div>
         </Container>
     )
