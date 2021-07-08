@@ -1,4 +1,5 @@
 const { spacing, fontFamily } = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   mode: 'jit',
@@ -7,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'blue-opaque': 'rgb(13 42 148 / 18%)'
+        'blue-opaque': 'rgb(13 42 148 / 18%)',
+        yellow : colors.amber,
       },
       fontFamily: {
         sans: ['Inter', ...fontFamily.sans]
