@@ -1,12 +1,28 @@
 import Link from 'next/link';
 import Container from '@/components/Container'
+import {projects} from "../data/projects"
+import Typewriter from 'typewriter-effect';
+import Card from '@/components/Card'
 export default function Home() {
     return (
         <Container>
             <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-                <div class="w-6/12 sm:w-4/12 px-1">
-                    <img src="/images/logo2.png" alt="..." class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
-                </div>
+                <div className="flex flex-col grid grid-cols-1  pb-16 sm:grid-cols-2">
+                    <div className="flex flex-col space-y-4">
+                        <div className="w-6/12 sm:w-6/12 px-3 ">
+                            <img src="/images/logo2.png" alt="..." className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+                        </div>
+                    </div>
+                    <div className="flex flex-row space-y-4 text-yellow-300">
+                    <Typewriter 
+                        onInit={(typewriter) => {
+                            typewriter.typeString('< WELCOME />')
+                            .pauseFor(2500)
+                            .start();
+                        }}
+                        />
+                    </div>
+                </div>               
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-6 text-black dark:text-white">
                 Hey, I’m Cristian Fonseca
                 </h1>
@@ -24,6 +40,14 @@ export default function Home() {
                 <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4  border border-gray-500 rounded shadow">
                     Contact
                 </button>
+                <div class="flex flex-wrap overflow-hidden">
+                    <div class="w-1/2 overflow-hidden sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                        <Card image="/images/ui_food_delivery_app.jpg" title="Hello" description="My name is Cristian"/>
+                    </div>
+                    <div class="w-1/2 overflow-hidden sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
+                        <Card image="/images/ui_food_delivery_app.jpg" title="Hello" description="My Name is Cristian"/>
+                    </div>
+                </div>
             </div>
         </Container>
     )

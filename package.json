@@ -13,16 +13,23 @@
   "author": "Cristian Fonseca",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@mdx-js/loader": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@next/mdx": "^11.0.1",
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.2.6",
+    "fathom-client": "^3.0.0",
     "next": "^11.0.1",
     "next-themes": "^0.0.15",
     "postcss": "^8.3.5",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "tailwindcss": "^2.2.4"
+    "swiper": "^6.7.5",
+    "tailwindcss": "^2.2.4",
+    "typewriter-effect": "^2.18.0"
   }
 }
