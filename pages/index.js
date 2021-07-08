@@ -15,7 +15,7 @@ export default function Home() {
                     <div className="flex flex-row space-y-4 text-yellow-300">
                     <Typewriter 
                         onInit={(typewriter) => {
-                            typewriter.typeString('< WELCOME />')
+                            typewriter.typeString('Javascript💛 Python💚  React⚛️ Next🔺 TailwindCSS💨 Bootstrap🅱️')
                             .pauseFor(2500)
                             .start();
                         }}

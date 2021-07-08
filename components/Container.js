@@ -5,7 +5,7 @@ import {useTheme} from 'next-themes';
 import NextLink from 'next/link';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
-import { faLaptopCode, faUser, faFileAlt } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
+import { faLaptopCode, faUser, faFileAlt, faHome } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 
 import Footer from '@/components/Footer';
 
@@ -77,6 +77,12 @@ export default function Container(props){
                     )}
                 </button>
                 <div>
+                    <NextLink href="/">
+                        <a className="p-1 text-gray-900 sm:p-4 dark:text-gray-100">
+                            <FontAwesomeIcon icon={faHome} className="dark:text-yellow-300 text-grey-900 mr-1"></FontAwesomeIcon>
+                            Home
+                        </a>
+                    </NextLink>
                     <NextLink href="/resume">
                         <a className="p-1 text-gray-900 sm:p-4 dark:text-gray-100">
                             <FontAwesomeIcon icon={faFileAlt} className="dark:text-yellow-300 text-grey-900 mr-1"></FontAwesomeIcon>
@@ -97,6 +103,7 @@ export default function Container(props){
                     </NextLink>
                 </div>
             </nav>
+            
             <main
                 id="skip"
                 className="flex flex-col justify-center px-8 bg-white dark:bg-black"
