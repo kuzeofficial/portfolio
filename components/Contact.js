@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from 'react'
+
+// TODO: Hacer funcionar el formulario que llegue un email y que luego imprima una alerta de fire alert
 
 export default function Contact() {
     return (
-        <div className=" max-w-6xl  py-20 px-12 lg:px-24  mb-24">
+        <div className=" max-w-6xl  py-20 px-12 lg:px-24  mb-24" id='contact'>
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-6 text-black dark:text-white text-center">Contact </h1>
             <form>
                 <div className="rounded pt-6 pb-8 mb-4 flex flex-col">

@@ -4,6 +4,7 @@ import {useState, useEffect} from 'react';
 import {useTheme} from 'next-themes';
 import NextLink from 'next/link';
 
+import FloatingButton from '@/components/FloatingButton'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faLaptopCode, faUser, faFileAlt, faHome } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 
@@ -34,9 +35,6 @@ export default function Container(props){
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
             <nav className="flex items-center justify-between w-full max-w-4xl  p-8 pt-4 pb-4  mx-auto my-0 text-gray-900 bg-white sticky-nav md:my-8 dark:bg-black bg-opacity-70 dark:text-gray-100">
-                <a href="#skip" className="skip-nav">
-                    Skip to Content
-                </a>
                 <button
                     aria-label="Toggle Dark Mode"
                     type="button"
@@ -103,6 +101,7 @@ export default function Container(props){
             >
                 {children}
                 <Footer />
+                <FloatingButton/>
             </main>
         </div>
     )

@@ -1,6 +1,7 @@
 import Container from '@/components/Container'
 import Card from '@/components/Card'
 
+// TODO: Agregar dos card mas para que sean 4 proyectos visibles
 
 function Portfolio() {
     return (
