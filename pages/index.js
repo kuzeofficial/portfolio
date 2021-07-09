@@ -9,7 +9,7 @@ export default function Home() {
                 <div className="flex flex-col grid grid-cols-1  pb-16 sm:grid-cols-2">
                     <div className="flex flex-col space-y-4">
                         <div className="w-6/12 sm:w-6/12 px-3 ">
-                            <img src="/images/logo2.png" alt="..." className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+                            <img src="/images/logo.jpg" alt="..." className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
                         </div>
                     </div>
                     <div className="flex flex-row space-y-4 text-yellow-300">
