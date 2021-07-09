@@ -26,11 +26,11 @@ export default function Container(props){
     }
 
     return (
-        <div className="bg-white dark:bg-black">
+        <div className="bg-white dark:bg-black ">
             <Head>
                 <title>{meta.title}</title>
                 <meta name="description" content={meta.description} />
-                <meta property="og:title" content="Cristian Fonseca - Developer" />
+                <meta property="og:title" content="cristian fonseca" />
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
             <nav className="flex items-center justify-between w-full max-w-4xl  p-8 pt-4 pb-4  mx-auto my-0 text-gray-900 bg-white sticky-nav md:my-8 dark:bg-black bg-opacity-70 dark:text-gray-100">

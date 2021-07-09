@@ -27,7 +27,7 @@ export default function Home() {
                 </h1>
                 <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
                
-Hello, welcome to my personal website, my name is Cristian and I am a web developer with more than 4 years of experience, if you are interested in hiring me 
+Hello, welcome to my personal website, my name is Cristian and I am a cuban web developer with more than 4 years of experience, if you are interested in hiring me 
                 –&nbsp;
                 <Link href="/contact">
                     <a>contact me</a>
