@@ -13,6 +13,15 @@
     U+FEFF, U+FFFD;
 }
 
+body::-webkit-scrollbar {
+  width: 9px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #FAD34C;
+  border-radius: 10px;
+  border-right: 2px;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
