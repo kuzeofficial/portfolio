@@ -46,13 +46,3 @@ html {
     @apply bg-opacity-100;
   }
 }
-
-.prose .anchor {
-  @apply absolute invisible;
-
-  margin-left: -1em;
-  padding-right: 0.5em;
-  width: 80%;
-  max-width: 700px;
-  cursor: pointer;
-}

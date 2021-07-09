@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <Container>
             <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-                <div className="flex flex-col grid grid-cols-1  pb-16 sm:grid-cols-2">
+                <div className="flex flex-col  grid grid-cols-1  pb-16 sm:grid-cols-2">
                     <div className="flex flex-col space-y-4">
                         <div className="w-6/12 sm:w-6/12 px-3 ">
                             <img src="/images/logo.webp" alt="..." className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
@@ -37,10 +37,10 @@ Hello, welcome to my personal website, my name is Cristian and I am a cuban web 
                     <a className="text-green-200">learn more about me.</a>
                 </Link>
                 </h2>
-                <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4  border border-gray-500 rounded shadow">
+                <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4   rounded shadow ring-4 ring-yellow-500 ring-opacity-50">
                     Contact
                 </button>
-                <Contact />
+                <Contact/>
             </div>
         </Container>
     )

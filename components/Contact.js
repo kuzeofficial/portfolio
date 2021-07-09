@@ -29,7 +29,7 @@ export default function Contact() {
                             <textarea id="description" className="w-full bg-gray-200 text-black  border-gray-200 rounded py-3 px-4 mb-3 resize-none border rounded-md" />
                         </div>
                     </div>
-                    <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4  border border-gray-500 rounded shadow">
+                    <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4  ring-4 ring-yellow-500 ring-opacity-50 rounded shadow">
                         Send
                     </button>
                 </div>
