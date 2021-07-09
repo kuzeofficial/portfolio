@@ -27,6 +27,8 @@ export default function Footer(){
                     </ExternalLink>
                 </div>
             </div>
+            <p className="text-center text-sm">Made with 💛 for Cristian</p>
+            <p className="text-center text-xs text-gray-500">Copyright ©2021 All rights reserved</p>
         </footer>
     )
 }
