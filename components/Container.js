@@ -15,7 +15,7 @@ export default function Container(props){
 
     useEffect(() => setMounted(true), [])
 
-    const {children, ...customMeta} = props
+    const {children, ...customMeta} = props 
     const router = useRouter()
     const meta = {
         title: 'Cristian Fonseca - Web Developer and Crypto-Enthusiast.',
