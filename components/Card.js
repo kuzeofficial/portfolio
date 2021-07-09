@@ -12,6 +12,14 @@ function Card(props) {
                 </div>
                 <div className="flex justify-between items-center p-2">
                     <img src="/images/logo2.webp" alt="avatar"  className="rounded-full h-7"/>
+                    <div className="flex">
+                        <button href={props.code} className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-2 border border-blue-500 hover:border-transparent rounded">
+                            Code
+                        </button>
+                        <button href={props.live} className="bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-2 ml-2 border border-red-500 hover:border-transparent rounded">
+                            Live
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
