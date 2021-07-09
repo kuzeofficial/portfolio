@@ -12,7 +12,7 @@ function Card(props) {
                     <p className="text-xs tracking-tighter text-gray-600">{props.description}</p>
                 </div>
                 <div className="flex justify-between items-center p-2">
-                    <img src="/images/logo2.png" alt="avatar"  className="rounded-full h-7"/>
+                    <img src="/images/logo2.jpg" alt="avatar"  className="rounded-full h-7"/>
                 </div>
             </div>
         </div>

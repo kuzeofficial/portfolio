@@ -29,16 +29,9 @@ export default function Container(props){
         <div className="bg-white dark:bg-black">
             <Head>
                 <title>{meta.title}</title>
-                <meta name="robots" content="follow, index"/>
-                <meta content={meta.description} name="description"/>
-                <meta property="og:url" content={`https://cristianfonseca.com${router.asPath}`} />
-                <link rel="canonical" href={`https://cristianfonseca.com${router.asPath}`} />
-                <meta property="og:type" content={meta.type} />
-                <meta property="og:site_name" content="Cristian Fonseca" />
-                <meta property="og:description" content={meta.description}/>
-                <meta property="og:title" content={meta.title} />
-                <meta property="og:image" content={meta.image}/>
-                <meta name="twitter:site" content="@cristian_devk"/>
+                <meta name="description" content={meta.description} />
+                <meta property="og:title" content="Cristian Fonseca - Developer" />
+                <link rel="icon" href="/images/favicon.ico" />
             </Head>
             <nav className="flex items-center justify-between w-full max-w-4xl  p-8 pt-4 pb-4  mx-auto my-0 text-gray-900 bg-white sticky-nav md:my-8 dark:bg-black bg-opacity-70 dark:text-gray-100">
                 <a href="#skip" className="skip-nav">
