@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Container from '@/components/Container'
 import Typewriter from 'typewriter-effect';
-import Card from '@/components/Card'
+import Contact from '@/components/Contact'
 export default function Home() {
     return (
         <Container>
@@ -40,6 +40,7 @@ Hello, welcome to my personal website, my name is Cristian and I am a cuban web 
                 <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4  border border-gray-500 rounded shadow">
                     Contact
                 </button>
+                <Contact />
             </div>
         </Container>
     )
