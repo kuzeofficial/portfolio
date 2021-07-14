@@ -1,7 +1,7 @@
 
 function Card(props) {
     return (
-        <div className="min-h-screen grid  place-items-center  font-mono mr-4">
+        <div className="grid  place-items-center  font-mono m-4 pt-10">
             <div className="bg-white  h-80 w-64 rounded-md shadow-xl dark:shadow- rounded-xl">
                 <div className="flex justify-center items-center leading-none">
                     <img className="h-40 w-56 rounded-md shadow-2xl mt-6 transform -translate-y-10 hover:-translate-y-4 transition duration-700" src={props.image} />
