@@ -32,7 +32,7 @@ export default function Home() {
                     <a className="text-green-200">learn more about me.</a>
                 </Link>
                 </h2>
-                <button className="bg-yellow-200 dark:text-dark hover:bg-yellow-400 text-gray-700 font-semibold py-2 px-4   rounded shadow ring-4 ring-yellow-500 ring-opacity-50">
+                <button className="bg-yellow-200 hover:bg-yellow-400 text-gray-700 font-semibold py-2  px-4   rounded shadow ring-4 ring-yellow-500 ring-opacity-50">
                     Contact
                 </button>
                 <hr className="w-full border-2 rounded border-gray-300 dark:border-gray-800 mb-1 mt-9" />
